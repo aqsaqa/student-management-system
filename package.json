@@ -1,0 +1,28 @@
+{
+  "name": "aqsa123_student_management_system",
+  "version": "8.0.1",
+  "description": "this is my studnt managament system",
+  "main": "index.js",
+  "type": "module",
+  "bin": "student.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Aqsa",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chalk-animation": "^1.6.3",
+    "@types/node": "^20.12.12"
+  },
+  "dependencies": {
+    "@types/inquirer": "^9.0.7",
+    "chalk": "^5.3.0",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.2.21",
+    "save-dev": "^0.0.1-security"
+  }
+}
